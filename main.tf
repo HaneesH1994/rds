@@ -10,7 +10,7 @@ resource "aws_db_instance" "new" {
   username             = var.username
   password             = var.password
   parameter_group_name = "default.mysql5.7"
-  deletion_protection = true
+  deletion_protection = false
   skip_final_snapshot  = true
   
 }
