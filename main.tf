@@ -1,7 +1,7 @@
 
 # create rds instance  
 
-resource "aws_db_instance" "default" {
+resource "aws_db_instance" "new" {
   allocated_storage    = var.storage
   engine               = var.engine
   engine_version       = var.version1
