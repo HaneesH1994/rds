@@ -1,6 +1,6 @@
 storage = "15"
-engine = "postgresql"
-version1 = "13.4"
+engine = "amazon aurora"
+version1 = "5.7"
 class = "db.t3.micro"
 name = "mydb"
 username = "Admin"
