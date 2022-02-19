@@ -23,11 +23,6 @@ variable "name" {
   default = "mydb"
 }
 
-variable "vpc" {
-  type    = string
-  default = "vpc-06f22756671e050e1"
-}
-
 variable "username" {
   type    = string
   default = "Admin"
